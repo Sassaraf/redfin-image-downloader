@@ -27,7 +27,7 @@ logging.basicConfig(filename=log_filename, level=logging.INFO, format=log_format
 client = Redfin()
 
 # Read the list of addresses from the CSV file
-df_adr = pd.read_csv('all_addresses.csv')
+df_adr = pd.read_csv('Redfin formatted addresses.csv')
 
 # Define the columns for the progress file
 progress_columns = ['Address', 'Status', 'Error']

@@ -12,6 +12,12 @@ from datetime import datetime
 import pandas as pd
 import os
 
+
+# Create the "Redefine images" folder if it doesn't exist
+if not os.path.exists("Redefine images"):
+    os.makedirs("Redefine images")
+
+    
 # Set up logging configuration
 log_format = '%(asctime)s %(levelname)s %(lineno)d: %(message)s'
 log_filename = 'redfin.log'

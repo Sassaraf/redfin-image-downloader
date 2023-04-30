@@ -19,7 +19,7 @@ This script downloads images of properties listed on Redfin based on a list of p
 1. Clone the repository:
 
 ```
-git clonehttps://github.com/Sassaraf/redfin-image-downloader.git
+git clone https://github.com/Sassaraf/redfin-image-downloader.git
 cd redfin-image-downloader
 ```
 
